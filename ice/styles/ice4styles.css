@@ -3,6 +3,10 @@
     background-color: #5ca1d7;
 }
 
+h1:hover{
+    color: black;
+}
+
 h1 {
     color: white;
 }
