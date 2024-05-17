@@ -1,0 +1,40 @@
+* {
+    text-align: center;
+    background-color:pink;
+}
+
+h1:hover{
+    color: black;
+}
+
+h1 {
+    color: white;
+}
+
+.white {
+    color: white;
+}
+
+ol {
+    width: 400px;
+    margin: 0 auto;
+}
+
+li {
+    text-align: left;
+    padding: 10px;
+
+}
+img {
+    max-width: 500px;
+}
+
+
+blockquote {
+    width: auto;
+    padding: 30px;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+}
+
