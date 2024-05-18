@@ -24,6 +24,9 @@ h1 {
 .about-me p {
     color: #666;
 }
+.about-me img {
+    max-width: 50px;
+}
 
 .white {
     color: white;
