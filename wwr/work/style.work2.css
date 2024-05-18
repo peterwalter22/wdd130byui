@@ -24,11 +24,12 @@ h1 {
 .about-me p {
     color: #666;
 }
+
 .about-me img {
     max-width: 50px;
 }
 
-.about-me h2:hover {
+h2:hover {
     color: purple;
 }
 
