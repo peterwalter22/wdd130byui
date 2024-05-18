@@ -28,6 +28,10 @@ h1 {
     max-width: 50px;
 }
 
+.about-me h2:hover {
+    color: purple;
+}
+
 .white {
     color: white;
 }
