@@ -1,14 +1,28 @@
 * {
     text-align: center;
-    background-color:pink;
+    background-color: pink;
 }
 
-h1:hover{
+h1:hover {
     color: black;
 }
 
 h1 {
     color: white;
+}
+
+.about-me {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.about-me h2 {
+    color: #333;
+}
+
+.about-me p {
+    color: #666;
 }
 
 .white {
@@ -25,6 +39,7 @@ li {
     padding: 10px;
 
 }
+
 img {
     max-width: 500px;
 }
@@ -37,4 +52,3 @@ blockquote {
     text-align: center;
     margin: 0 auto;
 }
-
