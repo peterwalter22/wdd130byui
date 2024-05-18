@@ -21,6 +21,10 @@ h1 {
     color: #333;
 }
 
+.white {
+    color: white;
+}
+
 .about-me p {
     color: #666;
 }
