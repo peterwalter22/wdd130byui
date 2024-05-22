@@ -1,8 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Italianno&family=Stalemate&display=swap');
 
-:root{
---heading-font: "Italianno";
---paragraph-font:"Stalemate", Helvetica, sans-serif;
+:root {
+    --heading-font: "Italianno";
+    --paragraph-font: "Stalemate", Helvetica, sans-serif;
+}
+
+.stalemate-regular {
+    font-family: "Stalemate", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.italianno-regular {
+    font-family: "Italianno", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 
 
@@ -16,7 +28,7 @@
 
 body {
     background-color: #FFFFFF;
-    color:#FFFFFF;
+    color: #FFFFFF;
     font-size: 22px;
     margin: 0;
     padding: 0;
@@ -26,13 +38,13 @@ body {
     padding-top: 5px;
 }
 
-#content{
+#content {
     max-width: 1600px;
     margin: 0 auto;
 }
 
 header {
-    background-color:blue;
+    background-color: blue;
 }
 
 .logo {
@@ -58,18 +70,19 @@ header {
     color: aquamarine;
 }
 
-.msg h2{
+.msg h2 {
     color: aquamarine;
     margin: 0;
 }
 
-.msg p{
+.msg p {
     color: aqua;
     font-size: .8em;
     padding-bottom: 15px;
 }
 
-.book, .join{
+.book,
+.join {
     background-color: aliceblue;
     color: black;
     text-decoration: none;
@@ -88,7 +101,8 @@ main section img {
     box-sizing: border-box;
 }
 
-.book:hover, .join:hover{
+.book:hover,
+.join:hover {
     background-color: aliceblue;
     color: black;
 }
@@ -98,35 +112,37 @@ nav a:hover {
     color: black;
 }
 
-nav a{
+nav a {
     text-align: center;
     color: aliceblue;
     text-decoration: none;
     padding: 35px;
 }
 
-#hero-msg h1{
+#hero-msg h1 {
     text-align: center;
 }
 
-#hero-msg h4{
+#hero-msg h4 {
     text-align: center;
     background-color: aliceblue;
 }
 
-.button-box{
+.button-box {
     text-align: center;
 }
 
-main section{
+main section {
     text-align: center;
 }
 
-.rivers-card, .camping-card, .rapids-card {
+.rivers-card,
+.camping-card,
+.rapids-card {
     margin: 200px 0;
 }
 
-#background{
+#background {
     height: 725px;
     background-color: antiquewhite;
 }
