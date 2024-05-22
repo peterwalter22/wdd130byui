@@ -130,14 +130,14 @@ main section {
 }
 
 footer {
-    background-color:white;
+    background-color:rgb(255, 255, 255);
     color:white;
     padding: 25px 50px;
     margin-top: 200px;
 }
 
 footer a {
-    color: black;
+    color: brown;
     text-decoration: none;
 }
 
