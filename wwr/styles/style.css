@@ -130,7 +130,7 @@ main section {
 }
 
 footer {
-    background-color:rgb(255, 255, 255);
+    background-color:hsla(12, 9%, 89%, 0.459);
     color:white;
     padding: 25px 50px;
     margin-top: 200px;
