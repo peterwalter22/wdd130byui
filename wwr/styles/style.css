@@ -22,7 +22,7 @@
 .home-title {
     color: black;
     font-size: 2em;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "italianno", Helvetica, sans-serif;
     margin-top: 10px;
 }
 
@@ -104,12 +104,12 @@ main section img {
 .book:hover,
 .join:hover {
     background-color: aliceblue;
-    color: black;
+    color: white;
 }
 
 nav a:hover {
     background-color: black;
-    color: black;
+    color: white;
 }
 
 nav a {
