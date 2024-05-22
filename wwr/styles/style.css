@@ -1,10 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+--heading-font: "Montserrat";
+--paragraph-font:"Roboto", Helvetica, sans-serif;
+}
+
+
+
 .home-title {
     color: black;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
 }
 
 body {
     background-color: #FFFFFF;
     color:#FFFFFF;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+#logo_link {
+    padding-top: 5px;
 }
 
 #content{
@@ -22,6 +41,7 @@ header {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img {
@@ -30,6 +50,8 @@ header {
 
 .msg {
     background-color: aliceblue;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .h4 {
@@ -38,16 +60,32 @@ header {
 
 .msg h2{
     color: aquamarine;
+    margin: 0;
 }
 
 .msg p{
     color: aqua;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 .book, .join{
     background-color: aliceblue;
     color: black;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+
+.card-img {
+    border: 10px solid black;
+}
+
+main section img {
+    box-sizing: border-box;
 }
 
 .book:hover, .join:hover{
@@ -64,6 +102,7 @@ nav a{
     text-align: center;
     color: aliceblue;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1{
@@ -83,6 +122,10 @@ main section{
     text-align: center;
 }
 
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
 #background{
     height: 725px;
     background-color: antiquewhite;
@@ -91,6 +134,8 @@ main section{
 footer {
     background-color: hwb(240 93% 5%);
     color: antiquewhite;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a {
@@ -108,4 +153,8 @@ footer p a:hover {
 
 footer a:hover {
     color: rgba(0, 255, 255, 0.392);
+}
+
+footer .social img {
+    padding-top: 15px;
 }
