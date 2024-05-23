@@ -20,7 +20,8 @@ body {
     border-radius: 50%;
     width: 30%;
     margin: 10px;
-    border-color: black;
+    border:#444444 5px solid;
+    border-width: 15px;
 }
 
 blockquote {
