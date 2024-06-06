@@ -7,7 +7,7 @@
 
 
 .home-title {
-    color: black;
+    color: white;
     font-size: 2em;
     font-family: "italianno", Helvetica, sans-serif;
     margin-top: 10px;
@@ -50,7 +50,7 @@ header {
 
 #hero {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: 1fr 2fr 1fr;
     margin-top: -100px;
 }
 
