@@ -1,9 +1,10 @@
 .card {
     width: 250px;
-    margin: 0;
+    margin: auto;
     background-color: white;
     overflow: hidden;
     border-radius: 5px;
+
 }
 
 .upper {
@@ -18,14 +19,28 @@
 .bluebox {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    background-color: lightblue;
+    grid-template-rows: 1fr 1fr;
+    background-color: skyblue;
+    justify-items: center;
 }
 
-.item4 {
-    grid-column: 3/3;
-    grid-row: 3/3;
+.item1a {
+    grid-row: 1/2;
+    grid-column: 1/2;
 }
 
+.item1b {
+    grid-row:2/2;
+    align-self: self-start;
+}
+.item2a {
+    grid-column: 2/2;
+    
+}
+
+.item2b {
+    grid-row: 2/2;
+}
 body {
     background-color: black;
     border-color: black;
